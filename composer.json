@@ -1,0 +1,23 @@
+{
+  "name": "wecodepixels/simple-custom-post-order",
+  "description": "Set a custom order for WordPress posts, including custom post types.",
+  "keywords": ["wordpress", "plugin", "posts", "order"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sameer Humagain",
+      "email": "im@hsameer.com.np",
+      "homepage": "http://www.hsameer.com.np"
+    },
+    {
+      "name": "WeCodePixels",
+      "email": "contact@wecodepixels.com",
+      "homepage": "http://wecodepixels.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "~1.0.0"
+  }
+}
