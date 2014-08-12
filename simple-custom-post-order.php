@@ -264,7 +264,6 @@ class SCPO_Engine {
 	function scporder_filter_active( $wp_query ) {
 
 		if ( isset($wp_query->query['suppress_filters']) ) $wp_query->query['suppress_filters'] = false;
-		if ( isset($wp_query->query_vars['suppress_filters']) ) $wp_query->query_vars['suppress_filters'] = false;
 		return $wp_query;
 	}
 
