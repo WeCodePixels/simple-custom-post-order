@@ -25,9 +25,7 @@ $objects = $scporder_options['objects'];
 						<input type="hidden" name="msg" value="true" /> 
 						<?php if ( function_exists( 'wp_nonce_field' ) ) wp_nonce_field( 'nonce_scporder' ); ?>
 						<?php
-						$post_types = get_post_types( array(
-							'public' => true
-								), 'objects' );
+						$post_types = get_post_types( array(), 'objects' );
 						?>
 						<?php
 						foreach ( $post_types as $post_type ) {
